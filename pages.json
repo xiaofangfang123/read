@@ -1,0 +1,97 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "书架",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "书城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/categories/categories",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/categorylist/categorylist",
+			"style": {
+				"navigationBarTitleText": "分类列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationBarTitleText": "排行"
+			}
+		},
+		{
+			"path": "pages/rank-list/rank-list",
+			"style": {
+				"navigationBarTitleText": "排行列表"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/book-info/book-info",
+			"style": {
+				"navigationBarTitleText": "书籍详情"
+			}
+		},
+		{
+			"path": "pages/book-reader/book-reader",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "章节详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/book.png",
+				"selectedIconPath": "static/icon/book_on.png",
+				"text": "书架"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/icon/city.png",
+				"selectedIconPath": "static/icon/city_on.png",
+				"text": "书城"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my_on.png",
+				"text": "我的"
+			}
+		]
+	}
+}

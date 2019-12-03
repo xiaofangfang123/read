@@ -1,0 +1,6 @@
+unpackage/debug
+unpackage/dist
+unpackage/release
+node_modules/*
+.idea
+.DS_Store
